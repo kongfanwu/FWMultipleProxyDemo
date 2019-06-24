@@ -15,6 +15,7 @@
 		F28533B922C0E54600C2430C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F28533B822C0E54600C2430C /* main.m */; };
 		F28533C122C0E56A00C2430C /* KIZMultipleProxyBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = F28533BF22C0E56A00C2430C /* KIZMultipleProxyBehavior.m */; };
 		F28533C422C0E68800C2430C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F28533C322C0E68800C2430C /* Person.m */; };
+		F28533C722C0F46F00C2430C /* UITableView+FWBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = F28533C622C0F46F00C2430C /* UITableView+FWBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		F28533C022C0E56A00C2430C /* KIZMultipleProxyBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIZMultipleProxyBehavior.h; sourceTree = "<group>"; };
 		F28533C222C0E68800C2430C /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		F28533C322C0E68800C2430C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F28533C522C0F46F00C2430C /* UITableView+FWBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+FWBlock.h"; sourceTree = "<group>"; };
+		F28533C622C0F46F00C2430C /* UITableView+FWBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FWBlock.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				F28533AD22C0E54600C2430C /* ViewController.m */,
 				F28533C222C0E68800C2430C /* Person.h */,
 				F28533C322C0E68800C2430C /* Person.m */,
+				F28533C522C0F46F00C2430C /* UITableView+FWBlock.h */,
+				F28533C622C0F46F00C2430C /* UITableView+FWBlock.m */,
 				F28533AF22C0E54600C2430C /* Main.storyboard */,
 				F28533B222C0E54600C2430C /* Assets.xcassets */,
 				F28533B422C0E54600C2430C /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F28533C722C0F46F00C2430C /* UITableView+FWBlock.m in Sources */,
 				F28533AE22C0E54600C2430C /* ViewController.m in Sources */,
 				F28533C122C0E56A00C2430C /* KIZMultipleProxyBehavior.m in Sources */,
 				F28533C422C0E68800C2430C /* Person.m in Sources */,

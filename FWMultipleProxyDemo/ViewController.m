@@ -14,6 +14,7 @@
 #import "ViewController.h"
 #import "KIZMultipleProxyBehavior.h"
 #import "Person.h"
+#import "UITableView+FWBlock.h"
 
 @interface ViewController ()
 /** <##> */
@@ -30,15 +31,22 @@
     [super viewDidLoad];
     self.person = Person.new;
     
-    NSArray *delegates = @[self, self.person];
+    
+    
+    
+    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
+    
+    NSArray *delegates = @[self, self.person, self.tableView];
     KIZMultipleProxyBehavior *behaviors = [[KIZMultipleProxyBehavior alloc] init];
     behaviors.delegateTargets = delegates;
     self.behaviors = behaviors;
     
-    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
     self.tableView.dataSource = (id<UITableViewDataSource>)self.behaviors;
     self.tableView.delegate   = (id<UITableViewDelegate>)self.behaviors;
     [self.view addSubview:_tableView];
+    [_tableView setDidSelectRowAtIndexPathBlock:^(UITableView * _Nonnull tableView, NSIndexPath * _Nonnull indexPath) {
+        NSLog(@"setDidSelectRowAtIndexPathBlock");
+    }];
 }
 
 #pragma mark - UITableView Datasource
