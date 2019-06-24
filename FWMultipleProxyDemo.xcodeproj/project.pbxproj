@@ -13,6 +13,8 @@
 		F28533B322C0E54600C2430C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28533B222C0E54600C2430C /* Assets.xcassets */; };
 		F28533B622C0E54600C2430C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28533B422C0E54600C2430C /* LaunchScreen.storyboard */; };
 		F28533B922C0E54600C2430C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F28533B822C0E54600C2430C /* main.m */; };
+		F28533C122C0E56A00C2430C /* KIZMultipleProxyBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = F28533BF22C0E56A00C2430C /* KIZMultipleProxyBehavior.m */; };
+		F28533C422C0E68800C2430C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F28533C322C0E68800C2430C /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		F28533B522C0E54600C2430C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F28533B722C0E54600C2430C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F28533B822C0E54600C2430C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F28533BF22C0E56A00C2430C /* KIZMultipleProxyBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIZMultipleProxyBehavior.m; sourceTree = "<group>"; };
+		F28533C022C0E56A00C2430C /* KIZMultipleProxyBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIZMultipleProxyBehavior.h; sourceTree = "<group>"; };
+		F28533C222C0E68800C2430C /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F28533C322C0E68800C2430C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,14 @@
 		F28533A822C0E54600C2430C /* FWMultipleProxyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F28533C022C0E56A00C2430C /* KIZMultipleProxyBehavior.h */,
+				F28533BF22C0E56A00C2430C /* KIZMultipleProxyBehavior.m */,
 				F28533A922C0E54600C2430C /* AppDelegate.h */,
 				F28533AA22C0E54600C2430C /* AppDelegate.m */,
 				F28533AC22C0E54600C2430C /* ViewController.h */,
 				F28533AD22C0E54600C2430C /* ViewController.m */,
+				F28533C222C0E68800C2430C /* Person.h */,
+				F28533C322C0E68800C2430C /* Person.m */,
 				F28533AF22C0E54600C2430C /* Main.storyboard */,
 				F28533B222C0E54600C2430C /* Assets.xcassets */,
 				F28533B422C0E54600C2430C /* LaunchScreen.storyboard */,
@@ -142,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F28533AE22C0E54600C2430C /* ViewController.m in Sources */,
+				F28533C122C0E56A00C2430C /* KIZMultipleProxyBehavior.m in Sources */,
+				F28533C422C0E68800C2430C /* Person.m in Sources */,
 				F28533B922C0E54600C2430C /* main.m in Sources */,
 				F28533AB22C0E54600C2430C /* AppDelegate.m in Sources */,
 			);
